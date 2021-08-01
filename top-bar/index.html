@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <script src="./src/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./src/css/main.css">
+    
+    <title>Top Bar</title>
+  </head>
+  <body>
+    <!--top bar-->
+    <div class="top-bar">
+      <div class="container">
+          <div class="top-bar-item">
+            <a class="text-decoration-none text-light me-3" href="">FAQS</a>
+            <a class="text-decoration-none text-light me-3" href="">About</a>
+            <a class="text-decoration-none text-light" href="">Contact</a>
+          </div>
+          <div class="top-bar-item text-end">
+            <a class="text-light me-4" href=""><i class="bi bi-twitter"></i></a>
+            <a class="text-light me-4" href=""><i class="bi bi-facebook"></i></a>
+            <a class="text-light me-4" href=""><i class="bi bi-linkedin"></i></a>
+            <a class="text-light me-4" href=""><i class="bi bi-google"></i></a>
+            <a class="text-light me-1" href=""><i class="bi bi-skype"></i></a>
+          </div>
+      </div>
+    </div><!--top bar-->
+
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark  " id="mainnav">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt=""> MEDICAL</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Departments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Timetable</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shortcodes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--nav bar-->
+
+    <!--main carousel-->
+    <div id="maincarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+          <div class="carousel-caption d-none d-md-block text-start">
+            <h3>Welcome To Medical Service You Can Trust</h3>
+            <p>Some representative placeholder content for the first slide.</p>
+            <button class="btn btn-primary">MAKE AN APPOINTMENT</button>
+            <button class="btn btn-light">DOCTORS TIMETABLE</button>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#666"></rect></svg>
+          <div class="carousel-caption d-none d-md-block text-center">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+            <button class="btn btn-primary">Details</button>
+            <button class="btn btn-light">More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="720" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#555"></rect></svg>
+          <div class="carousel-caption d-none d-md-block text-end">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+            <button class="btn btn-primary">Details</button>
+            <button class="btn btn-light">More</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#maincarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#maincarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div><!--main carousel-->
+
+    <!--tree card-->
+    <div class="container" id="threecard">
+          <div class="row">
+            <div class="col-md-4 px-0">
+              <div class="card first-card">
+                <div class="card-header">
+                  <h5>ENERGENCY CASE</h5>
+                </div>
+                <div class="card-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam non iste impedit natus voluptas provident similique repudiandae voluptatibus. Quaerat soluta tempore eaque sequi, expedita quasi non distinctio esse pariatur quisquam.</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-light">READ MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 px-0">
+              <div class="card second-card">
+                <div class="card-header">
+                  <h5>DOCTORS TİMETABLE</h5>
+                </div>
+                <div class="card-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam non iste impedit natus voluptas provident similique repudiandae voluptatibus. Quaerat soluta tempore eaque sequi, expedita quasi non distinctio esse pariatur quisquam.</p>
+                </div>
+                <div class="card-footer">
+                  <button class="btn btn-outline-light">READ MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 px-0">
+              <div class="card third-card">
+                <div class="card-header">
+                  <h5>OPENİNG HOURS</h5>
+                </div>
+                <div class="card-body">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam non iste impedit natus voluptas provident similique repudiandae voluptatibus. Quaerat soluta tempore eaque sequi, expedita quasi non distinctio esse pariatur quisquam.</p>
+                </div>
+                <div class="card-footer">
+                </div>
+              </div>
+            </div>
+          </div>
+    </div><!--tree card-->
+
+    <!--welcome section-->
+    <section id="welcomesection">
+      <div class="section-header text-center">
+        <h3>Welcome to Medical</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card shadow">
+              <div class="card-header text-center">
+                <img src="./img/heartbeat.png" alt="">
+              </div>
+              <div class="card-body text-center">
+                <div class="card-title"><h5>Lorem</h5></div>
+                <div class="card-text">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow">
+              <div class="card-header text-center">
+                <img src="./img/lungs.png" alt="">
+              </div>
+              <div class="card-body text-center">
+                <div class="card-title"><h5>Lorem</h5></div>
+                <div class="card-text">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow">
+              <div class="card-header text-center">
+                <img src="./img/tooth.png" alt="">
+              </div>
+              <div class="card-body text-center">
+                <div class="card-title"><h5>Lorem</h5></div>
+                <div class="card-text">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--welcome section-->
+
+    <!--here section-->
+    <section id="heresection">
+      <div class="section-header text-center">
+        <h3>We are Here For You</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <h6 class="text-uppercase fw-bold text-light">
+              <img  src="./img/logo.png"/>medical
+            </h6>
+            <p class="border-bottom pb-3"><a class="text-decoration-none text-light" href="tel:+92054755555"><i class="bi bi-telephone-fill"></i> Call Us: +9205475-55-55</a></p>
+            <p class="border-bottom pb-3"> <a class="text-decoration-none text-light" href="https://goo.gl/maps/bEVTwm5XzjQFNyZD7"><i class="bi bi-geo-alt-fill"></i> New York, NY 10012, US</a></p>
+            <p class="border-buttom pb-3"><a class="text-decoration-none text-light" href="info@medicalhealth.com"><i class="bi bi-envelope-fill"></i> info@medicalhealth.com</a></p>
+            <div>
+              <a href="" class="me-4 text-decoration-none text-light"><i class="bi bi-facebook"></i></a>
+              <a href="" class="me-4 text-decoration-none text-light"><i class="bi bi-twitter"></i></a>
+              <a href="" class="me-4 text-decoration-none text-light"><i class="bi bi-google"></i></a>
+              <a href="" class="me-4 text-decoration-none text-light"><i class="bi bi-linkedin"></i></a>
+              <a href="" class="me-4 text-decoration-none text-light"><i class="bi bi-skype"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="text-uppercase fw-bold text-light mt-2">navigation</h6>
+            <div class="row">
+              <div class="col">
+                  <p><a href="#" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Appointment</a></p>
+                  <p><a href="#" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Other Specialist Staff</a></p>
+                  <p><a href="#" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Patient FAQS</a></p>
+                  <p><a href="#" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Healthy Eating</a></p>
+                  <p><a href="#" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Our vision and values</a></p>
+              </div>
+              <div class="col">
+                  <p><a href="#!" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Why Choose Us</a></p>
+                  <p><a href="#!" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Psychotherapist</a></p>
+                  <p><a href="#!" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Find a Doctor</a></p>
+                  <p><a href="#!" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Volunteer roles</a></p>
+                  <p><a href="#!" class="text-decoration-none text-light"><i class="bi bi-chevron-double-right"></i> Helath Topics</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h6 class="text-uppercase fw-bold text-light mt-2">POPULAR POSTS</h6> 
+            <div class="row">
+              <div class="col-md-2">
+                  <img src="./img/card.png" alt="" style="height: 48px; width: 48px;">
+              </div>
+              <div class="col-md-10">
+                  <p class="titl text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p class="card-text text-light"><em>19.05.2021</em></p>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                  <img src="./img/card.png" alt="" style="height: 48px; width: 48px;">
+                </div>
+                <div class="col-md-10">
+                  <p class="title text-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                  <p class="card-text text-light"><em>19.05.2021</em></p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section id="footerbottom">
+        <div class="container">
+            <div class="row">
+                <div class="col text-start my-auto">
+                    <p class="my-auto text-light">© 2018 MedicalHealth, All rights reserved</p>
+                </div>
+                <div class="col m-3">
+                    <div class="text-end my-auto">
+                        <a href="" class="text-decoration-none text-light me-5">Home</a>
+                        <a href="" class="text-decoration-none  text-light me-5">About</a>
+                        <a href="" class="text-decoration-none text-light ">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </footer><!--footer-->
+
+
+    <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/main.js"></script>
+  </body>
+</html>

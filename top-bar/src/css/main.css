@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&display=swap');
+/*general*/
+body{
+  font-family: 'Poppins', sans-serif;
+}div,button{
+  border-radius: 0 !important;
+}.card, .card-header, .card-body, .card-footer{
+  border:0 !important;
+  border-radius: 0 !important;
+}.text-light{
+  color:rgb(207, 207, 207) !important;
+}.text-light:hover{
+  color: white !important;
+}h1,h2,h3{
+  font-family: 'Raleway', sans-serif;
+}.section-header{
+  margin-bottom: 3rem;
+}
+/*top bar*/
+.top-bar {
+  background-color: #9e9e9e;
+  border-bottom: 2px solid rgb(184, 184, 184);
+  position: fixed;
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 42px;
+  font-size: 14px;
+}.top-bar .container {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}.top-bar .top-bar-item {
+  width: 100%;
+}
+/*main nav*/
+#mainnav{
+  background-color: #9e9e9e;
+  position:fixed;
+  top: 42px;
+  width: 100%;
+  z-index: 5;
+  transition: top 0.3s;
+}#mainnav .nav-item{
+  height: 48px;
+}#mainnav .nav-link{
+  padding-top: 12px;
+  padding-bottom: 18px;
+}
+#mainnav .nav-link:hover{
+  border-bottom: 2px solid white;
+}
+
+/*main carousel*/
+#maincarousel{
+  z-index: 1;
+}#maincarousel .carousel-caption{
+  top: 40%;
+}
+/*three card*/
+#threecard{
+  position: relative;
+  z-index: 3;
+  top: -10rem;
+}#threecard .row{
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}#threecard .card{
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: rgb(233, 233, 233);
+  border: 0;
+  height: 100%;
+}#threecard .card-body p{
+  line-height:30px !important;
+  font-size: 15px;
+}#threecard .card-header, .card-body, .card-footer{
+  background: transparent !important;
+  border: 0;
+}#threecard .first-card{
+  background-color: royalblue;
+}#threecard .second-card{
+  background-color: rgb(45, 82, 194);
+}#threecard .third-card{
+  background-color: rgb(30, 63, 161);
+}
+/*welcome section*/
+#welcomesection{
+  padding-bottom: 5rem;
+}#welcomesection .card{
+  padding-bottom: 3rem;
+}#welcomesection .card-header img{
+  height: 64px;
+  width: 64px;
+  margin-top: 42px;
+  margin-bottom: 42px;
+}#welcomesection .card-header{
+  background: white;
+}#welcomesection .card-body p{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+/*here section*/
+#heresection{
+  background-color: #f0f0f0;
+}
+/*footer*/
+footer{
+  background-color: #173052;
+}footer .col-lg-4{
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}footer h6{
+  margin-bottom: 2rem ;
+}#footerbottom{
+  font-size: 14px;
+  background-color: #0e1a2b;
+}
+/*reponsive settings*/
+@media screen and (max-width:768px) {
+  #threecard .row{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+  }#threecard .container{
+    padding:0 !important;
+    margin: 0 !important;
+  }
+}

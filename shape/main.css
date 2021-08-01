@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+.body{
+    font-family: 'Manrope';
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    position: relative;
+    height: 70vh;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.custom-shape-divider-bottom-1627050335 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1627050335 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1627050335 .shape-fill {
+    fill: #fff;
+}
+
+.navbar-toggler-icon i{
+    color: white !important;
+    font-size: 32px;
+}
+.container a{
+    color: white !important;
+    font-family: 'Manrope';
+}
+
+.container a:hover{
+    color: rgb(212, 212, 212) !important;
+}
+
+.col-md-3{
+    color: #345663;
+}
+.col-md-3:hover{
+    color: #1d363f;
+    transition: 1s ease;
+}
+#features i{
+    font-size: 48px;
+}

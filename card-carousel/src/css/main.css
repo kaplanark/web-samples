@@ -1,0 +1,176 @@
+body{background-color: wheat;}
+@media (min-width: 768px) {
+    /*col-md-3 carousel*/
+    .colthree-carousel-inner .active,
+    .colthree-carousel-inner .active + .colthree-carousel-item,
+    .colthree-carousel-inner .active + .colthree-carousel-item + .colthree-carousel-item,
+    .colthree-carousel-inner .active + .colthree-carousel-item + .colthree-carousel-item +.colthree-carousel-item{
+        display: block;
+    }
+    .colthree-carousel-inner .colthree-carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .colthree-carousel-inner .colthree-carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colthree-carousel-item,
+    .colthree-carousel-inner .colthree-carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colthree-carousel-item + .colthree-carousel-item,
+    .colthree-carousel-inner .colthree-carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item {
+        transition: none;
+    }
+    .colthree-carousel-inner .carousel-item-next,
+    .carousel-innercarousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    .colthree-carousel-inner .active.colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .colthree-carousel-item,
+    .carousel-item-next.carousel-item-left + .colthree-carousel-item + .colthree-carousel-item,
+    .carousel-item-next.carousel-item-left + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item,
+    .carousel-item-next.carousel-item-left + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    .colthree-carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .colthree-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colthree-carousel-item + .colthree-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item + .colthree-carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    /*col-md-4 carousel*/
+    .colfour-carousel-inner .active,
+    .colfour-carousel-inner .active + .colfour-carousel-item,
+    .colfour-carousel-inner .active + .colfour-carousel-item + .colfour-carousel-item{
+        display: block;
+    }
+    
+    .colfour-carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .colfour-carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colfour-carousel-item,
+    .colfour-carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colfour-carousel-item + .colfour-carousel-item{
+        transition: none;
+    }
+    
+    .colfour-carousel-inner .carousel-item-next,
+    .colfour-carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .colfour-carousel-inner .active.carousel-item + .colfour-carousel-item + .colfour-carousel-item + .colfour-carousel-item{
+        position: absolute;
+        top: 0;
+        right: -33.333%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .colfour-carousel-item,
+    .carousel-item-next.carousel-item-left + .colfour-carousel-item+ .carousel-item,
+    .carousel-item-next.carousel-item-left + .colfour-carousel-item + .colfour-carousel-item + .colfour-carousel-item{
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    .colfour-carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .colfour-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colfour-carousel-item + .colfour-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colfour-carousel-item+ .colfour-carousel-item + .colfour-carousel-item{
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+    /*col-md-6 carousel*/
+    .colsix-carousel-inner .active,
+    .colsix-carousel-inner .active + .colsix-carousel-item{
+        display: block;
+    }
+
+    .colsix-carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .colsix-carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .colsix-carousel-item{
+        transition: none;
+    }
+
+    .colsix-carousel-inner .carousel-item-next,
+    .colsix-carousel-inner .carousel-item-prev {
+    position: relative;
+    transform: translate3d(0, 0, 0);
+    }
+
+    .colsix-carousel-inner .active.carousel-item + .colsix-carousel-item + .colsix-carousel-item{
+        position: absolute;
+        top: 0;
+        right: -50%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .colsix-carousel-item,
+    .carousel-item-next.carousel-item-left + .colsix-carousel-item+ .carousel-item,
+    .carousel-item-next.carousel-item-left + .colsix-carousel-item + .colsix-carousel-item{
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+
+    .colsix-carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .colsix-carousel-item,
+    .carousel-item-prev.carousel-item-right + .colsix-carousel-item + .colsix-carousel-item{
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+}
+ #profile-grid { overflow: auto; white-space: normal; } 
+ #profile-grid .profile { padding-bottom: 40px; }
+ #profile-grid .panel { padding: 0 }
+ #profile-grid .panel-body { padding: 15px }
+ #profile-grid .profile-name { font-weight: bold; }
+ #profile-grid .thumbnail {margin-bottom:6px;}
+ #profile-grid .panel-thumbnail { overflow: hidden; }
+ #profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
